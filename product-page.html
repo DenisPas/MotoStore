@@ -16,16 +16,20 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
 	<header class="header">
-
 		<div class="header__top">
 			<div class="container">
 				<div class="header__top-inner">
-
 					<nav class="menu">
+						<button class="menu__btn">
+							<div class="menu__btn-line"></div>
+							<div class="menu__btn-line"></div>
+							<div class="menu__btn-line"></div>
+						</button>
 						<ul class="menu__list">
 							<li class="menu__item">
 								<a href="#" class="menu__link">
@@ -75,6 +79,95 @@
 				</div>
 			</div>
 		</div>
+		<ul class="menu-mobile__list">
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<img class="menu-mobile__img" src="images/user.svg" alt="">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<img class="menu-mobile__img" src="" alt="">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<img class="menu-mobile__img" src="" alt="">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<img class="menu-mobile__img" src="" alt="">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<img class="menu-mobile__img" src="" alt="">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<img class="menu-mobile__img" src="" alt="">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<img class="menu-mobile__img" src="" alt="">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<p>Войти</p>
+				</a>
+			</li>
+			<li class="menu-mobile__item">
+				<a class="menu-mobile__link" href="#">
+					<p>Войти</p>
+				</a>
+			</li>
+		</ul>
+		<div class="menu__mobile-linewrapper">
+			<ul class="menu__mobile-line">
+				<li class="menu__item">
+					<a href="#" class="menu__link">
+						Магазины
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">
+						Акции
+					</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">
+						Доставка и оплата
+					</a>
+				</li>
+			</ul>
+		</div>
+
 		<div class="herader__bottom">
 			<div class="container">
 				<ul class="menu-categories">
@@ -93,17 +186,16 @@
 
 	<div class="breadcrumbs">
 		<div class="container">
-			<ul class="breadcrumbs__list">
-				<li class="breadcrumbs__list-item">
-					<a href="#">Главная</a>
-				</li>
-				<li class="breadcrumbs__list-item">
-					<a href="#">Гидроциклы</a>
-				</li>
-				<li class="breadcrumbs__list-item">
-					<span href="#">Модель такая то </span>
-				</li>
-			</ul>
+			<div class="breadcrumbs__inner">
+				<ul class="breadcrumbs__list mobile-overflow">
+					<li class="breadcrumbs__list-item">
+						<a href="#">Главная</a>
+					</li>
+					<li class="breadcrumbs__list-item">
+						<a href="#">Гидроциклы</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 
@@ -596,8 +688,8 @@
 							<button type="submit" class="footer-form__bnt">Отправить</button>
 						</form>
 					</div>
-					<div class="footer__top-item">
-						<h6 class="footer__top-title">
+					<div class="footer__top-item footer__top-itemdrop">
+						<h6 class="footer__top-title footer__topdrop">
 							Информация
 						</h6>
 						<ul class="footer-list">
@@ -608,10 +700,10 @@
 						</ul>
 					</div>
 					<div class="footer__top-item">
-						<h6 class="footer__top-title">
+						<h6 class="footer__top-title footer__topdrop">
 							Интренет-магазин
 						</h6>
-						<ul class="footer-list">
+						<ul class="footer-list ">
 							<li class="footer-list__item"><a href="#">Доставка и самовывоз</a></li>
 							<li class="footer-list__item"><a href="#">Оплата</a></li>
 							<li class="footer-list__item"><a href="#">Возврат-обмен</a></li>
