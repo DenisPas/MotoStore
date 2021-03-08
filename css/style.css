@@ -1610,6 +1610,14 @@ background-color: #c4c4c4;
 	background-color: #1c62cd;
 }
 
+.product-card__btn-mobile{
+	display: none;
+}
+
+.footer__topdrop{
+	pointer-events: none;
+}
+
 
 
 
