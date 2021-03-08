@@ -290,6 +290,9 @@
 	.pagination-list__item{
 		margin: 0;
 	}
+	.temp-link{
+		font-size: 16px;
+	}
 }
 
 
