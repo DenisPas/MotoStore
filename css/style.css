@@ -569,7 +569,8 @@ background-image: url('../images/favorite.svg');
 	border-radius: 3px;
 	display: inline-block;
 	position: absolute;
-	top: 30%;
+	top: 35%;
+	left: 22%;
 	opacity: 0;
 	transition: all .3s;
 }
