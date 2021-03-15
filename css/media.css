@@ -28,16 +28,21 @@
 }
 
 @media(max-width:1100px){
+	.search-label{
+		margin-right: 0;
+		display: block;
+		width: 100%;
+	}
 	.menu__item + .menu__item {
 		padding-left: 20px;
 		}
 	.header__adress{
 		margin-right: 20px;
 }
-.card__input-search{
-	margin-right: 0;
+.search-label::before{
+	display: none;
 }
-}
+
 
 @media(max-width:968px){
 	.herader__bottom{
