@@ -1,5 +1,5 @@
 # MotoStore
-An adaptive online store for jet skis (consists of 3 pages). The project was carried out using HTML, CSS.
+An adaptive online store for jet skis.
 
 Many subtle points were made in the layout of online stores: product cards, product pages, filters, pagination, breadcrumbs, tabs, price slider, styling of checkboxes and radio buttons, "star rating" and much more.
 
